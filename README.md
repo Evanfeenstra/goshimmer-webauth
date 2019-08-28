@@ -2,7 +2,7 @@
 
 **JWT authentication for IOTA Shimmer prototype**
 
- Use with [goshimmer-ui](https://github.com/Evanfeenstra/goshimmer-ui) to secure access to your Shimmer node via a JWT token and username/password combination. 
+ Use with **[goshimmer-ui](https://github.com/Evanfeenstra/goshimmer-ui)** to secure access to your Shimmer node via username/password combination and JWT. 
 
 Usage:
 ```
@@ -37,4 +37,6 @@ and run
 ```
 
 ### navigate to **[localhost:8080/ui](http://localhost:8080/ui)** in your browser!
+
+Then enter your **UI_USER** and **UI_PASS** into the Username and Password fields to access your node! This plugin secures *all* the **webapi** routes, so you can open port 8080 and securely configure your node from anywhere.
 
